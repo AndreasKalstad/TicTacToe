@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navn">Tic tac toe</string>
+    <string name="uavgjort">Draw!</string>
+    <string name="tittel">Tic tac toe</string>
+    <string name="send">Send</string>
+    <string name="nyttspill">New game</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_standard">StandardActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="regler">"Tic tac toe!\n
+1. The game is played on a grid that\'s 3 squares by 3 squares.\n
+2. You are X, your friend is O. Players take turns putting their marks in empty squares.\n
+3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.\n
+4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie."</string>
+    <string name="antRunder">How many rounds do you want to play?</string>
+    <string name="runder">Rounds</string>
+    <string name="runderSpilt">Number of moves done per round:</string>
+    <string name="kallenavn">Nicknames</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="resultater">Results</string>
+    <string name="vinner">Winner:</string>
+    <string name="rundervunnet">Rounds won by </string>
+    <string name="antTrekk">Number of moves each round:</string>
+	<string name="nesteRunde">Next round </string>
+	<string name="feilmelding">Type in a valid number of rounds!</string>
+	<string name="vinn">wins!</string>
+</resources>

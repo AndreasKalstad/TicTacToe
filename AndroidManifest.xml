@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gameactivity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application>
+ 
+        <!--
+             The activity tag here is currently not used. The main project TicTacToeMain
+             must currently redefine the activities to be used from the libraries.
+             However later the tools will pick up the activities from here and merge them
+             automatically, so it's best to define your activities here like for any
+             regular Android project.
+        -->
+        <activity 
+            android:name="com.example.gameactivity.MainActivity" 
+            android:alwaysRetainTaskState="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                
+                android:value="android.app.LauncherActivity" 
+                android:configChanges="locale"/>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.example.gameactivity.GameActivity" 
+            android:configChanges="locale" 
+            android:alwaysRetainTaskState="true">
+            <intent-filter>
+                <action android:name="com.example.gameactivity.GameActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gameactivity.ResultActivity"
+            android:label="@string/title_activity_result" 
+            android:configChanges="locale" 
+            android:alwaysRetainTaskState="true">
+            
+            <intent-filter>
+                <action android:name="com.example.gameactivity.ResultActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gameactivity.StandardActivity"
+            android:label="@string/title_activity_standard" 
+            android:configChanges="locale" 
+            android:alwaysRetainTaskState="true">
+        </activity>
+    </application>
+
+</manifest>

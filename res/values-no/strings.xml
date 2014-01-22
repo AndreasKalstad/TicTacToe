@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="navn">Bondesjakk</string>
+    <string name="uavgjort">Uavgjort!</string>
+    <string name="tittel">Bondesjakk</string>
+    <string name="send">Send</string>
+    <string name="nyttspill">Nytt spill</string>
+    <string name="title_activity_main">HovedAktivitet</string>
+    <string name="action_settings">Innstillinger</string>
+    <string name="title_activity_result">ResultatAktivitet</string>
+    <string name="title_activity_standard">StandardAktivitet</string>
+    <string name="title_activity_game">SpillAktivitet</string>
+    <string name="regler">"Bondesjakk \n
+1. Spillet spilles på et rutenett som er 3x3 ruter. \n
+2. Du er X, din venn er O. Spillerne setter sine spor i de tomme rutene. \n
+3. Den første spilleren til å få 3 spor i en rad (opp, ned, over eller diagonalt) er vinneren. \n
+4. Når alle ni rutene er fulle, er spillet over. Hvis ingen spillere har 3 spor i en rad, ender spillet i uavgjort."</string>
+    <string name="antRunder">Hvor mange runder vil dere spille?</string>
+    <string name="runder">Runder</string>
+    <string name="runderSpilt">Antall trekk per runde:</string>
+    <string name="kallenavn">Kallenavn</string>
+    <string name="player1">Spiller 1</string>
+    <string name="player2">Spiller 2</string>
+    <string name="resultater">Resultater</string>
+    <string name="vinner">Vinner:</string>
+    <string name="rundervunnet">Runder vunnet av </string>
+    <string name="antTrekk">Antall trekk per runde:</string>
+	<string name="nesteRunde">Neste runde</string>
+	<string name="feilmelding">Skriv inn et gyldig antall runder!</string>
+	<string name="vinn">vinner!</string>
+</resources>
